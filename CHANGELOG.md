@@ -1,6 +1,17 @@
 # Change Log
 
-## [1.12.0](https://github.com/openeuropa/oe_whitelabel/tree/1.12.0) (2024-10-07)
+## [1.13.0](https://github.com/openeuropa/oe_whitelabel/tree/1.13.0) (2024-11-06)
+[Full Changelog](https://github.com/openeuropa/oe_whitelabel/compare/1.12.0...1.13.0)
+
+**Merged pull requests:**
+
+- OEL-3417: Prerelease bcl. [\#326](https://github.com/openeuropa/oe_whitelabel/pull/326) ([tibi2303](https://github.com/tibi2303))
+- OEL-3422: Added aria-label on language switcher link. [\#324](https://github.com/openeuropa/oe_whitelabel/pull/324) ([tibi2303](https://github.com/tibi2303))
+- OEL-3419: Added roles on nav items in header. [\#321](https://github.com/openeuropa/oe_whitelabel/pull/321) ([tibi2303](https://github.com/tibi2303))
+- OEL-3420: Added check for rich text paragraph title. [\#320](https://github.com/openeuropa/oe_whitelabel/pull/320) ([tibi2303](https://github.com/tibi2303))
+- OEL-3418: Changed list title for listing and search. [\#317](https://github.com/openeuropa/oe_whitelabel/pull/317) ([tibi2303](https://github.com/tibi2303))
+
+## [1.12.0](https://github.com/openeuropa/oe_whitelabel/tree/1.12.0) (2024-10-08)
 [Full Changelog](https://github.com/openeuropa/oe_whitelabel/compare/1.11.0...1.12.0)
 
 **Fixed bugs:**
@@ -13,6 +24,7 @@
 
 **Merged pull requests:**
 
+- Prepare release 1.12.0. [\#318](https://github.com/openeuropa/oe_whitelabel/pull/318) ([drishu](https://github.com/drishu))
 - OEL-3412: Added cck before page\_top. [\#316](https://github.com/openeuropa/oe_whitelabel/pull/316) ([tibi2303](https://github.com/tibi2303))
 - OEL-0000: Fix drupal/coder issues. [\#315](https://github.com/openeuropa/oe_whitelabel/pull/315) ([tibi2303](https://github.com/tibi2303))
 - OEL-3411: Set default button label in search block header, if not already set. [\#314](https://github.com/openeuropa/oe_whitelabel/pull/314) ([tibi2303](https://github.com/tibi2303))
