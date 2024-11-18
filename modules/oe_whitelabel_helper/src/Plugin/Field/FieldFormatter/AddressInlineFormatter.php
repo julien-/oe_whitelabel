@@ -31,16 +31,19 @@ class AddressInlineFormatter extends AddressDefaultFormatter {
    * {@inheritdoc}
    */
   public static function defaultSettings() {
-    return [
-      'delimiter' => ', ',
-      'properties' => [],
-    ];
+    $options = parent::defaultSettings();
+    $options['delimiter'] = ', ';
+    $options['properties'] = [];
+
+    return $options;
   }
 
   /**
    * {@inheritdoc}
    */
   public function settingsForm(array $form, FormStateInterface $form_state) {
+    $form = parent::settingsForm($form, $form_state);
+
     $form['delimiter'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Delimiter'),
